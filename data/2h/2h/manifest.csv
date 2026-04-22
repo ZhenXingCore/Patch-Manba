@@ -1,0 +1,4 @@
+﻿source,original_column_name,trajectory_count,point_count,output_file
+bd,bd,1421,65707,bd_points.csv
+radar,radar,1421,29538,radar_points.csv
+AIS,AIS,1421,56096,AIS_points.csv
