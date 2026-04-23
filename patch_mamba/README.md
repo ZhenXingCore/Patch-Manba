@@ -69,16 +69,5 @@ from patch_mamba_training import run_multiscale_comparison_experiment
 
 A compatibility wrapper named `patch_mamba.py` is also provided so that external scripts can continue importing the training interface using the historical filename.
 
-## Dependency on the dataset builder
 
-This training module expects a companion dataset builder module that provides the following functions and constants:
-
-- `EPS`
-- `restore_pred_lonlat`
-- `pack_samples_to_batch`
-- `load_saved_samples_from_csv`
-- `load_rollout_dataset_from_csv`
-- `build_output_csv_path`
-
-By default, the code tries to import them from `patch_dataset`.
 
